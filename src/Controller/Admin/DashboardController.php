@@ -27,11 +27,11 @@ class DashboardController extends AbstractDashboardController
             ->setTitle('Leurneur');
     }
 
-    public function configureMenuItems(): iterable
+   /* public function configureMenuItems(): iterable
     {
         yield MenuItem::linktoDashboard('Dashboard', 'fa fa-home');
         yield MenuItem::linkToCrud('User', 'fas fa-user', User::class);
         yield MenuItem::linkToCrud('Cours', 'fas fa-user', Cours::class);
         yield MenuItem::linkToCrud('Category', 'fas fa-user', Category::class);
-    }
+    }*/
 }
